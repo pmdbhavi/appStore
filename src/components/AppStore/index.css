@@ -1,0 +1,51 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+
+.search-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-width: 0px;
+}
+
+.image {
+  height: 20px;
+}
+
+.tab-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.app-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
